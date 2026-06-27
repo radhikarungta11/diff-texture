@@ -7,7 +7,7 @@ import torchv
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT_DIR / 'data'
-OUTPUT_DIR = ROOT_DIR / 'outputs'
+OUTPUT_DIR = ROOT_DIR / 'outputs' 
 
 
 def default_device() -> str:
